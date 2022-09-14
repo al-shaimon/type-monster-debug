@@ -27,7 +27,7 @@
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+              What is the difference between Local Storage and Session Storage.
             </button>
           </h2>
           <div
@@ -37,12 +37,20 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default,
-              until the collapse plugin adds the appropriate classes that we use to style each
-              element. These classes control the overall appearance, as well as the showing and
-              hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-              our default variables. It's also worth noting that just about any HTML can go within
-              the <code>.accordion-body</code>, though the transition does limit overflow.
+              <strong>Local Storage:</strong><br />
+              <strong>1: </strong>The storage capacity of local storage is 5MB/10MB. <br />
+              <strong>2: </strong>As it is not session-based, it must be deleted via javascript or
+              manually. <br />
+              <strong>3: </strong>The client can only read local storage. <br />
+              <strong>4: </strong>There is no transfer of data to the server. <br>
+              <strong>5: </strong>There are fewer old browsers that support it. <br> <br>
+
+              <strong>Session Storage:</strong><br>
+              <strong>1: </strong>The storage capacity of session storage is 5MB <br />
+              <strong>2: </strong>It’s session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed <br />
+              <strong>3: </strong>The client can only read local storage. They cann't read session storage. <br />
+              <strong>4: </strong>There is no transfer of data to the server <br>
+              <strong>5: </strong>There are fewer old browsers that support session storage.
             </div>
           </div>
         </div>
